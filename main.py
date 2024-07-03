@@ -27,7 +27,7 @@ if __name__ == "__main__":
     }
 
     processor = FolderSerializer(my_blacklist, my_whitelist)
-    my_folder = "input_output"
-    my_input_name = f"{my_folder}/input.txt"
-    my_output_nane = f"{my_folder}/output.txt"
-    processor.execute(my_input_name, my_output_nane)
+    my_io_folder = "input_output"
+    my_input_file = f"{my_io_folder}/input.txt"
+    my_output_file = f"{my_io_folder}/output.txt"
+    processor.execute(my_input_file, my_output_file)
