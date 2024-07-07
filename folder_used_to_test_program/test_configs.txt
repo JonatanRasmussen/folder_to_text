@@ -1,0 +1,111 @@
+Folder hierarchy:
+
+folder_to_be_serialized/
+  .test (NOT FEATURED)
+  empty_file.txt
+  empty_folder/
+  file_without_extension
+  hello_world.py
+  hello_world.py.py
+  hello_world.py.py.py (NOT FEATURED)
+  not_empty_folder/
+    another_hello_world.py
+    another_text_file.txt
+    made_in_ms_paint.jpg (NOT FEATURED)
+    nested_folder/
+      super_secret_json.json
+      yet_another_hello_world.py
+    try_banlist_this_file.txt
+    try_banlisting_this_folder/ (NOT FEATURED)
+    try_not_whitelisting_this_file.txt (NOT FEATURED)
+    try_not_whitelisting_this_folder/ (NOT FEATURED)
+  test.svg.svg (NOT FEATURED)
+  text_file.txt
+  try_banlisting_png.png (NOT FEATURED)
+  try_not_whitelisting_jpg.jpg (NOT FEATURED)
+
+
+
+--- Start of File: empty_file.txt ---
+
+
+
+--- End of File: empty_file.txt ---
+
+
+
+--- Start of File: file_without_extension ---
+
+
+
+--- End of File: file_without_extension ---
+
+
+
+--- Start of File: hello_world.py ---
+
+print("Hello world!")
+
+--- End of File: hello_world.py ---
+
+
+
+--- Start of File: hello_world.py.py ---
+
+print("Oopsie this file is called .py.py")
+
+--- End of File: hello_world.py.py ---
+
+
+
+--- Start of File: text_file.txt ---
+
+Hey this is a test.
+Hey this is a test (2).
+Hey this is test
+Why are you reading this.
+
+--- End of File: text_file.txt ---
+
+
+
+--- Start of File: not_empty_folder\another_hello_world.py ---
+
+print("Hello world, again!")
+
+--- End of File: not_empty_folder\another_hello_world.py ---
+
+
+
+--- Start of File: not_empty_folder\another_text_file.txt ---
+
+Hey this is another test.
+
+--- End of File: not_empty_folder\another_text_file.txt ---
+
+
+
+--- Start of File: not_empty_folder\try_banlist_this_file.txt ---
+
+Testing whitelist/blacklist functionality
+
+--- End of File: not_empty_folder\try_banlist_this_file.txt ---
+
+
+
+--- Start of File: not_empty_folder\nested_folder\super_secret_json.json ---
+
+{
+    "very_real_api_key": "1234okok"
+}
+
+--- End of File: not_empty_folder\nested_folder\super_secret_json.json ---
+
+
+
+--- Start of File: not_empty_folder\nested_folder\yet_another_hello_world.py ---
+
+print("Hello world, again again!")
+
+--- End of File: not_empty_folder\nested_folder\yet_another_hello_world.py ---
+

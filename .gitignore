@@ -1,7 +1,7 @@
 ### My project-specific ignores:
 input_output/
-input.txt
-output.txt
+program_outputs
+program_inputs
 
 ### C# IGNORES --- COPY PASTE FROM https://gist.github.com/takekazuomi/10955889
 ## Ignore Visual Studio temporary files, build results, and

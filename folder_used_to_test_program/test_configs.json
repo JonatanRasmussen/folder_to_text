@@ -1,0 +1,53 @@
+{
+    "folder_to_serialize": "C:\\INSERT_YOUR_LOCAL_PATH\\folder_to_text\\folder_used_to_test_program\\folder_to_be_serialized",
+    "blacklist": {
+        "extensions": [
+            ".exe",
+            ".png"
+        ],
+        "files": [
+            "try_banlist_this_file"
+        ],
+        "folders": [
+            "try_banlisting_this_folder"
+        ]
+    },
+    "whitelist": {
+        "extensions": [
+            "",
+            ".",
+            ".json",
+            ".txt",
+            ".py",
+            ".png",
+            ".svg"
+        ],
+        "files": [
+            "super_secret_json",
+            "yet_another_hello_world",
+            "this_should_be_ignored",
+            "another_hello_world",
+            "another_text_file",
+            "made_in_ms_paint",
+            "try_banlist_this_file",
+            "",
+            "empty_file",
+            "file_without_extension",
+            "hello_world",
+            "hello_world.py",
+            "test_svg",
+            "try_banlisting_png",
+            "try_not_whitelisting_jpg",
+            "text_file",
+            "test_configs"
+        ],
+        "folders": [
+            "folder_used_to_test_program",
+            "folder_to_be_serialized",
+            "empty_folder",
+            "not_empty_folder",
+            "nested_folder",
+            "try_banlisting_this_folder"
+        ]
+    }
+}
