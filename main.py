@@ -1,10 +1,12 @@
 import os
 from folder_serializer import FolderSerializer
+from testing import Testing
+
 
 if __name__ == "__main__":
     # Test run
-    FolderSerializer.create_and_execute_test_run()
+    Testing.main()
 
     # Actual Run
-    config_name = "vuhdo" # Load your config file here
-    FolderSerializer.create_and_execute_from_config(config_name)
+    config_name = "self" # Input name of config file that should be loaded
+    FolderSerializer.main(config_name)

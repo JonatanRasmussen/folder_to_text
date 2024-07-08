@@ -2,6 +2,7 @@ Folder hierarchy:
 
 folder_to_be_serialized/
   .test (NOT FEATURED)
+  binary_format.jpeg (BINARY FILE)
   empty_file.txt
   empty_folder/
   file_without_extension
@@ -15,14 +16,22 @@ folder_to_be_serialized/
     nested_folder/
       super_secret_json.json
       yet_another_hello_world.py
-    try_banlist_this_file.txt
+    try_banlist_this_file.txt (NOT FEATURED)
     try_banlisting_this_folder/ (NOT FEATURED)
     try_not_whitelisting_this_file.txt (NOT FEATURED)
     try_not_whitelisting_this_folder/ (NOT FEATURED)
-  test.svg.svg (NOT FEATURED)
+  test_svg.svg
   text_file.txt
   try_banlisting_png.png (NOT FEATURED)
   try_not_whitelisting_jpg.jpg (NOT FEATURED)
+
+
+
+--- Start of File: binary_format.jpeg ---
+
+[Binary file - NOT DISPLAYED]
+
+--- End of File: binary_format.jpeg ---
 
 
 
@@ -58,6 +67,18 @@ print("Oopsie this file is called .py.py")
 
 
 
+--- Start of File: test_svg.svg ---
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="40" stroke="black" stroke-width="2" fill="red"/>
+</svg>
+
+--- End of File: test_svg.svg ---
+
+
+
 --- Start of File: text_file.txt ---
 
 Hey this is a test.
@@ -82,14 +103,6 @@ print("Hello world, again!")
 Hey this is another test.
 
 --- End of File: not_empty_folder\another_text_file.txt ---
-
-
-
---- Start of File: not_empty_folder\try_banlist_this_file.txt ---
-
-Testing whitelist/blacklist functionality
-
---- End of File: not_empty_folder\try_banlist_this_file.txt ---
 
 
 

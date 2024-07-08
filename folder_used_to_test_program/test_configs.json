@@ -20,7 +20,8 @@
             ".txt",
             ".py",
             ".png",
-            ".svg"
+            ".svg",
+            ".jpeg"
         ],
         "files": [
             "super_secret_json",
@@ -31,6 +32,7 @@
             "made_in_ms_paint",
             "try_banlist_this_file",
             "",
+            "binary_format",
             "empty_file",
             "file_without_extension",
             "hello_world",
