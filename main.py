@@ -7,5 +7,5 @@ if __name__ == "__main__":
     FolderSerializerTesting.main()
 
     # Actual Run
-    config_name = "dtu_courses" # Input name of config file that should be loaded
+    config_name = "bulletin_board" # Input name of config file that should be loaded
     FolderSerializer.main(config_name)
