@@ -20,7 +20,6 @@
             ".txt",
             ".py",
             ".png",
-            ".svg",
             ".jpeg"
         ],
         "files": [
@@ -51,5 +50,17 @@
             "nested_folder",
             "try_banlisting_this_folder"
         ]
+    },
+    "show_first": {
+        "files": ["text_file.txt", "hello_world.py"],
+        "folders": ["empty_folder"]
+    },
+    "show_last": {
+    "files": ["another_text_file.txt", "yet_another_hello_world.py"],
+    "folders": ["not_empty_folder"]
+    },
+    "llm_separator": {
+    "enabled": true,
+    "text": "=== End of Code / Start of Instructions ==="
     }
 }

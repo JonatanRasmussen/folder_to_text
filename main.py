@@ -4,8 +4,8 @@ from folder_serializer import FolderSerializer, FolderSerializerTesting
 #%%
 if __name__ == "__main__":
     # Test run
-    FolderSerializerTesting.main()
+    FolderSerializerTesting.main_test()
 
     # Actual Run
-    config_name = "bulletin_board" # Input name of config file that should be loaded
+    config_name = "self" # Input name of config file that should be loaded
     FolderSerializer.main(config_name)

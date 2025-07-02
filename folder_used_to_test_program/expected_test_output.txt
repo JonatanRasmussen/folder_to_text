@@ -1,53 +1,40 @@
 Folder hierarchy:
 
 folder_to_be_serialized/
-  .test (NOT FEATURED)
-  binary_format.jpeg (BINARY FILE)
-  empty_file.txt
   empty_folder/
-  file_without_extension
-  hello_world.py
-  hello_world.py.py
-  hello_world.py.py.py (NOT FEATURED)
   not_empty_folder/
-    another_hello_world.py
-    another_text_file.txt
-    made_in_ms_paint.jpg (NOT FEATURED)
     nested_folder/
       super_secret_json.json
       yet_another_hello_world.py
-    try_banlist_this_file.txt (NOT FEATURED)
     try_banlisting_this_folder/ (NOT FEATURED)
-    try_not_whitelisting_this_file.txt (NOT FEATURED)
     try_not_whitelisting_this_folder/ (NOT FEATURED)
-  test_svg.svg
+    another_hello_world.py
+    made_in_ms_paint.jpg (NOT FEATURED)
+    try_banlist_this_file.txt (NOT FEATURED)
+    try_not_whitelisting_this_file.txt (NOT FEATURED)
+    another_text_file.txt
   text_file.txt
+  hello_world.py
+  hello_world.py.py
+  .test (NOT FEATURED)
+  binary_format.jpeg (NOT FEATURED)
+  empty_file.txt
+  file_without_extension
+  hello_world.py.py.py (NOT FEATURED)
+  test_svg.svg (NOT FEATURED)
   try_banlisting_png.png (NOT FEATURED)
   try_not_whitelisting_jpg.jpg (NOT FEATURED)
 
 
 
---- Start of File: binary_format.jpeg ---
+--- Start of File: text_file.txt ---
 
-[Binary file - NOT DISPLAYED]
+Hey this is a test.
+Hey this is a test (2).
+Hey this is test
+Why are you reading this.
 
---- End of File: binary_format.jpeg ---
-
-
-
---- Start of File: empty_file.txt ---
-
-
-
---- End of File: empty_file.txt ---
-
-
-
---- Start of File: file_without_extension ---
-
-
-
---- End of File: file_without_extension ---
+--- End of File: text_file.txt ---
 
 
 
@@ -67,26 +54,19 @@ print("Oopsie this file is called .py.py")
 
 
 
---- Start of File: test_svg.svg ---
+--- Start of File: empty_file.txt ---
 
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="50" cy="50" r="40" stroke="black" stroke-width="2" fill="red"/>
-</svg>
+[Empty file - NOTHING TO DISPLAY]
 
---- End of File: test_svg.svg ---
+--- End of File: empty_file.txt ---
 
 
 
---- Start of File: text_file.txt ---
+--- Start of File: file_without_extension ---
 
-Hey this is a test.
-Hey this is a test (2).
-Hey this is test
-Why are you reading this.
+[Empty file - NOTHING TO DISPLAY]
 
---- End of File: text_file.txt ---
+--- End of File: file_without_extension ---
 
 
 
@@ -121,4 +101,8 @@ Hey this is another test.
 print("Hello world, again again!")
 
 --- End of File: not_empty_folder\nested_folder\yet_another_hello_world.py ---
+
+
+
+=== End of Code / Start of Instructions ===
 
