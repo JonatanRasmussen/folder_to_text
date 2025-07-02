@@ -234,7 +234,8 @@ class FolderSerializer:
         try:
             with open(output_path, 'w', encoding='utf-8') as f:
                 f.write(self._folder_content_as_str)
-            print(f"Output successfully written to {output_path}\n")
+            print(f"Output successfully written to {output_path}")
+            print(f"Length of output: {len(self._folder_content_as_str)} characters (~{int(len(self._folder_content_as_str) / 3.5)} tokens)\n")
         except Exception as e:
             print(f"Error writing to {output_path} {str(e)}\n")
 
