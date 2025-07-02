@@ -503,10 +503,10 @@ class FolderSerializerTesting:
         msg_expected = f"{FolderSerializerTesting._EXPECTED_TEST_OUTPUT_FILE} ({len(expected_output)} characters)"
 
         if output == expected_output:
-            print(f"Test passed! {msg_output} == {msg_expected}...")
+            print(f"Test passed! {msg_output} == {msg_expected}...\n")
         else:
             print(f"Test failed! {msg_output} != {msg_expected}")
-            print(f"Investigate output at {output_path}")
+            print(f"Investigate output at {output_path}\n")
 
             # Additional debugging information
             lines_output = output.split('\n')
