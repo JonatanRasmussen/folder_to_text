@@ -224,7 +224,6 @@ class FolderSerializer:
 
     def print_summary(self) -> None:
         print(self._hierarchy)
-        print(f"Success! Length of output: {len(self._folder_content_as_str)} characters (~{int(len(self._folder_content_as_str) / 3.5)} tokens)")
         print(f"Errors: {self._read_errors}")
         print(f"Binaries: {self._binary_files}")
         print(f"Files Read: {self._traversed_files}")
