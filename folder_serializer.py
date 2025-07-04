@@ -231,6 +231,7 @@ class FolderSerializer:
 
     def write_output(self, output_path: str) -> None:
         try:
+            os.makedirs(os.path.dirname(output_path), exist_ok=True)
             with open(output_path, 'w', encoding='utf-8') as f:
                 f.write(self._folder_content_as_str)
             print(f"Output successfully written to {output_path}")
